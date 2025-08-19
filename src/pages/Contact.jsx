@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="bg-white py-16 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-blue-900 mb-8 text-center">
+        <h1 className="text-4xl font-bold text-poc-red mb-8 text-center">
           Contact Us
         </h1>
 
@@ -55,15 +55,15 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full bg-blue-900 text-white py-3 rounded-md font-semibold hover:bg-blue-800 transition"
+            className="w-full bg-poc-red-bg text-white py-3 rounded-md font-semibold hover:bg-poc-red transition"
           >
             Send Message
           </button>
         </form>
 
         <div className="mt-12 text-center text-gray-600">
-          <p>Email: <a href="mailto:info@pointofcarelab.com" className="text-blue-700">info@pointofcarelab.com</a></p>
-          <p>Phone: <a href="tel:+2348000000000" className="text-blue-700">+234 800 000 0000</a></p>
+          <p>Email: <a href="mailto:info@pointofcarelab.com" className="text-poc-red-bg">info@pointofcarelab.com</a></p>
+          <p>Phone: <a href="tel:+2348000000000" className="text-poc-red-bg">+234 800 000 0000</a></p>
           <p>Address: 123 Health Avenue, Lagos, Nigeria</p>
         </div>
       </div>

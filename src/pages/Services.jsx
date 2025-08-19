@@ -29,13 +29,13 @@ export default function Services() {
   return (
     <div className="bg-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-blue-900 mb-12">
+        <h1 className="text-4xl font-bold text-center text-poc-red mb-12">
           Our Diagnostic Services
         </h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {tests.map((test, index) => (
             <div key={index} className="bg-gray-50 border border-gray-200 rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
-              <h2 className="text-xl font-semibold text-blue-700 mb-2">{test.name}</h2>
+              <h2 className="text-xl font-semibold text-poc-red-bg mb-2">{test.name}</h2>
               <p className="text-gray-600 text-sm">{test.description}</p>
             </div>
           ))}

@@ -23,7 +23,7 @@ export default function BookAppointment() {
   return (
     <div className="bg-white py-16 px-4">
       <div className="max-w-xl mx-auto">
-        <h1 className="text-3xl font-bold text-blue-900 mb-8 text-center">
+        <h1 className="text-3xl font-bold text-poc-red mb-8 text-center">
           Book an Appointment
         </h1>
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -101,7 +101,7 @@ export default function BookAppointment() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-700 text-white py-3 rounded-md font-semibold hover:bg-blue-800"
+            className="w-full bg-poc-red-bg text-white py-3 rounded-md font-semibold hover:bg-poc-red"
           >
             Submit Request
           </button>

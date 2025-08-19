@@ -26,7 +26,7 @@ export default function Blog() {
   return (
     <div className="bg-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-blue-900 mb-12 text-center">Our Blog</h1>
+        <h1 className="text-4xl font-bold text-poc-red mb-12 text-center">Our Blog</h1>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
           {blogPosts.map((post) => (
             <div
@@ -40,7 +40,7 @@ export default function Blog() {
               />
               <div className="p-4">
                 <p className="text-sm text-gray-500 mb-2">{post.date}</p>
-                <h2 className="text-xl font-semibold text-blue-800 mb-2">
+                <h2 className="text-xl font-semibold text-poc-red-bg mb-2">
                   {post.title}
                 </h2>
                 <p className="text-gray-700 text-sm">{post.summary}</p>
